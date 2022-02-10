@@ -14,7 +14,7 @@ img {
 
 .logo-text {
   text-transform: uppercase;
-  background-color: #22233d;
+  background-color: #a2bed6;
   font-size: 34px;
   margin: 0;
   padding: 20px;
@@ -68,14 +68,16 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-title {
-  background-color: #22233d;
+  background-color: #a2bed6;
   color: white;
   font-size: 25px;
   font-weight: 600;
-  padding: 30px 20px;
+  padding: 50px 40px;
+  text-transform: uppercase;
 }
 
 .hero-text {
@@ -90,6 +92,11 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  padding: 35px 25px;
+  padding: 15px 25px;
   display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
