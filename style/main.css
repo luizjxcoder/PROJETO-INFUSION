@@ -53,7 +53,7 @@ img {
 }
 
 .header-nav a:hover {
-  color: white;
+  color: #a2bed6;
 }
 
 .header__btn-menu {
@@ -63,12 +63,16 @@ img {
   height: 80vh;
   padding: 40px 20px;
   text-align: center;
-  background-image: url(../img/lampada.jpg);
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(45deg, white 49%, transparent 50%) left
+      calc(50% + 20px) bottom no-repeat,
+    linear-gradient(-45deg, white 49%, transparent 50%) left calc(50% - 20px)
+      bottom no-repeat,
+    url(../img/lampada.jpg);
+  background-size: 40px 40px, 40px 40px, cover;
 }
 
 .hero-title {
