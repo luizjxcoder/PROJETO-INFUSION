@@ -67,6 +67,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*SETA COM CSS*/
   background: linear-gradient(45deg, white 49%, transparent 50%) left
       calc(50% + 20px) bottom no-repeat,
     linear-gradient(-45deg, white 49%, transparent 50%) left calc(50% - 20px)
