@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  background: #fff;
+  width: 100%;
+}
+
+.logo-text {
+  text-transform: uppercase;
+  background-color: #22233d;
+  font-size: 34px;
+  margin: 0;
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  float: left;
+}
+
+.header-nav {
+  clear: left; /*limpa o float left do .logo-text*/
+}
+
+.header-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav li {
+  list-style-type: none;
+  background: #242a2c;
+  text-align: center;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #586165;
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  padding: 25px 0;
+  transition: 0.5s ease;
+}
+
+.header-nav a:hover {
+  color: white;
+}
+
+.header__btn-menu {
+}
+
+.hero {
+  height: 80vh;
+  padding: 40px 20px;
+  text-align: center;
+  background-image: url(../img/lampada.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title {
+  background-color: #22233d;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 30px 20px;
+}
+
+.hero-text {
+  background-color: #242a2c;
+  margin: 5px 30px 35px;
+  color: white;
+  padding: 28px;
+  font-size: 16px;
+}
+
+.hero-btn {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 35px 25px;
+  display: inline-block;
+}
