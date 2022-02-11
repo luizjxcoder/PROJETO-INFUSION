@@ -205,3 +205,47 @@ img {
   background: #00c7ae;
   color: white;
 }
+
+/* ÁLBUM PORTFÓLIO */
+
+.last-article-title {
+  background-color: #636cae;
+  padding: 5px 0;
+}
+
+.last-article-title h2 {
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.last-article-thumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: auto;
+  grid: 0;
+  background: yellow;
+}
+
+.last-article-thumbs img {
+  display: block;
+  width: 100%;
+}
+
+/* LAPTOP SLIDE */
+
+.laptop-slider {
+  background-color: #242a2c;
+  padding: 125px 0 100px;
+  width: 100%;
+  overflow: auto;
+}
+
+.slideshow {
+  white-space: nowrap;
+}
+
+.slideshow figure {
+  display: inline-block;
+}
