@@ -1,10 +1,18 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
 }
 
 img {
   max-width: 100%;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .header {
@@ -105,3 +113,53 @@ img {
   font-weight: 600;
   text-transform: uppercase;
 }
+
+.pessoa-card {
+  margin-top: 2.5em;
+}
+
+.pessoa-card-pic:hover {
+  outline: 5px solid #a2bed6;
+  outline-offset: -5px; /*ANDA COM A LINHA PARA DENTRO DO CARD*/
+}
+
+.pessoa-card-pic:hover .pessoa-card-avatar img {
+  transform: translateY(-88px);
+}
+
+.pessoa-card-pic:hover .pessoa-card-title,
+.pessoa-card-pic:hover .pessoa-card-title {
+  color: #a2bed6;
+}
+
+.pessoa-card-img {
+  width: 100%;
+}
+
+.pessoa-card-avatar {
+  margin: -55px auto;
+  width: 88px;
+  height: 88px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 8px solid #a2bed6;
+}
+
+.pessoa-card-content {
+  text-align: center;
+  padding: 40px 25px 10px;
+  border-left: 1px solid #dbe1e7;
+}
+
+.pessoa-card-title {
+  color: #737c85;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.pessoa-card-text {
+  color: #929da5;
+  font-size: 14px;
+}
+
+
