@@ -32,7 +32,7 @@ img {
   text-transform: uppercase;
   background-color: #636cae;
   font-size: 34px;
-  margin: 0;
+  margin-top: -5px;
   padding: 20px;
   display: block;
   text-decoration: none;
@@ -95,13 +95,14 @@ img {
   color: white;
   font-size: 25px;
   font-weight: 600;
-  padding: 50px 40px;
+  padding: 50px 50px;
   text-transform: uppercase;
+  padding-top: 50px;
 }
 
 .hero-text {
   background-color: #242a2c;
-  margin: 5px 30px 35px;
+  margin: 30px 35px 15px;
   color: white;
   padding: 28px;
   font-size: 16px;
@@ -111,6 +112,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  margin-top: 30px;
   padding: 15px 25px;
   display: inline-block;
   color: white;
@@ -231,7 +233,6 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-auto-rows: auto;
   grid: 0;
-  background: yellow;
 }
 
 .last-article-thumbs img {
@@ -282,7 +283,7 @@ img {
 
 .footer {
   background-color: #242a2c;
-  padding: 50px 0 250px;
+  padding: 50px 0 20px;
   color: #454e51;
   font-size: 14px;
 }
@@ -296,6 +297,16 @@ img {
   display: block;
   font-weight: 600;
   text-decoration: none;
+}
+
+.footer-logo {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
 }
 
 /* MEDIA QUERY */
@@ -339,6 +350,7 @@ img {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
   }
+
   .content .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -346,5 +358,11 @@ img {
   }
   .last-article-thumbs {
     grid-template-columns: repeat(6, 1fr);
+  }
+  .footer .container {
+    display: flex;
+  }
+  .footer .container > * {
+    margin: 1.5em;
   }
 }
