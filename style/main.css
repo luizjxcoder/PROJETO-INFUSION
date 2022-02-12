@@ -78,6 +78,19 @@ img {
   color: #636cae;
 }
 
+.header-btn-menu {
+  float: right;
+  margin: 1.5em;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+.js .header-nav {
+   transition: max-height 1s;
+}
+
+
 .hero {
   height: 80vh;
   padding: 40px 20px;
@@ -125,14 +138,6 @@ img {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-}
-
-.header-btn-menu {
-  float: right;
-  margin: 1.5em;
-  background: transparent;
-  border: none;
-  font-size: 18px;
 }
 
 .pessoa-card {
