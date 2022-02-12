@@ -39,6 +39,7 @@ img {
   font-weight: bold;
   color: #fff;
   float: left;
+  text-align: right;
 }
 
 .header-nav {
@@ -85,7 +86,7 @@ img {
       calc(50% + 20px) bottom no-repeat,
     linear-gradient(-45deg, white 49%, transparent 50%) left calc(50% - 20px)
       bottom no-repeat,
-    url(../img/lampada.jpg);
+    url(../img/baloom.jpg);
   background-size: 40px 40px, 40px 40px, cover;
 }
 
@@ -238,12 +239,6 @@ img {
   width: 100%;
 }
 
-@media (max-width: 766px) {
-  .big-img {
-    display: none;
-  }
-}
-
 /* LAPTOP SLIDE */
 
 .laptop-slider {
@@ -264,7 +259,7 @@ img {
 .quote-container {
   background-color: #636cae;
   padding: 50px 0;
-  border-bottom: 12px solid #48b9a1;
+  border-bottom: 12px solid #34377f;
 }
 
 .quote-slideshow h2 {
@@ -304,6 +299,11 @@ img {
 }
 
 /* MEDIA QUERY */
+@media screen and (max-width: 1050px) {
+  .container-pessoa {
+    width: 400px;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .header {
@@ -339,10 +339,12 @@ img {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
   }
-}
-
-@media screen and (max-width: 1050px) {
-  .container-pessoa {
-    width: 400px;
+  .content .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .last-article-thumbs {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
