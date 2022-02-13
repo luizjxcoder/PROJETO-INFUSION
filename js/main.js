@@ -5,9 +5,9 @@
     
         
     var menu = new Menu({
-        container: '.header-nav',
-        toggleBtn: '.header-btn-menu',
-        widthEnabled: 1024 
+        container: '.header__nav',
+        toggleBtn: '.header__btnMenu',
+        widthEnabled: 1200
     })
     
     var carouselImgs = new Carousel({
