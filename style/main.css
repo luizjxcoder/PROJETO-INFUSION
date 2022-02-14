@@ -163,9 +163,9 @@ img {
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(45deg, white 50%, transparent 50%) left
+  background: linear-gradient(45deg, white 47.5%, transparent 50%) left
       calc(50% + 20px) bottom no-repeat,
-    linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px)
+    linear-gradient(-45deg, white 47.5%, transparent 50%) left calc(50% - 20px)
       bottom no-repeat,
     url(../img/baloom.jpg);
   background-size: 40px 40px, 40px 40px, cover;
@@ -233,6 +233,7 @@ img {
   text-align: center;
   padding: 40px 25px 10px;
   border-left: 1px solid #dbe1e7;
+  border-right: 1px solid #dbe1e7;
 }
 .people-cards__title {
   color: #737c85;
@@ -319,6 +320,7 @@ img {
 }
 .slideshow figure {
   display: inline-block;
+  margin: auto;
 }
 
 .quote-container {
