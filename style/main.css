@@ -31,7 +31,7 @@ img {
   background-color: #7237d0;
   font-size: 24px;
   margin: 0;
-  padding: 20px;
+  padding: 20px 35px;
   display: block;
   text-decoration: none;
   font-weight: bold;
@@ -201,6 +201,16 @@ img {
   text-transform: uppercase;
 }
 
+.team {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #242a2c;
+}
+
 .people-cards {
   margin-top: 2.5em;
 }
@@ -208,7 +218,7 @@ img {
 .people-cards__card {
 }
 .people-cards__card:hover {
-  outline: 5px solid #7237d0;
+  outline: 5px solid #9574c0;
   outline-offset: -5px;
 }
 .people-cards__card:hover .people-cards__avatar img {
@@ -235,6 +245,7 @@ img {
   border-left: 1px solid #dbe1e7;
   border-right: 1px solid #dbe1e7;
 }
+
 .people-cards__title {
   color: #737c85;
   font-size: 21px;
@@ -298,7 +309,7 @@ img {
 
 .last-articles__thumbs {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
   grid-auto-rows: auto;
   grid-gap: 0;
   background: yellow;
@@ -346,9 +357,15 @@ img {
   margin-top: 5em;
 }
 
+.copy {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+}
+
 .footer {
   background-color: #242a2c;
-  padding: 50px 0 250px;
+  padding: 50px 0 5px;
   color: #454e51;
   font-size: 14px;
 }
@@ -402,6 +419,16 @@ img {
     background: white;
   }
 
+  .team {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #242a2c;
+  }
+
   .people-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -416,6 +443,11 @@ img {
 
   .last-articles__thumbs {
     grid-template-columns: repeat(6, 1fr);
+  }
+
+  .slideshow figure {
+    display: flex;
+    justify-content: center;
   }
 
   .footer .container {
