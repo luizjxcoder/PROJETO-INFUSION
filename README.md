@@ -25,7 +25,7 @@
 <p> Front-End completo de um website criado com aprendizado adquirido no curso Web da ORIGAMID.
 Foi usado tecnologias como HTML, CSS, JAVASCRIPT, BOOTSTRAP e ferramentas como Adobe Photoshop e Illustrator 
 para editar e redimensionar imagens, Figma para prototipar o projeto e VSCode como IDE de desenvolvimento. 
-O Layout é totalmente responsivo, seguindo o modelo Mobile Fisrt.
+O Layout é totalmente responsivo, seguindo o conceito Mobile Fisrt.
 Projeto está hospedado no site Vercel, click no link abaixo e visualize meu projeto em seu navegador!
 </p>
 ```
