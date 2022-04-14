@@ -21,7 +21,7 @@
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 #
-### :triangular_ruler: PROJETO
+### :triangular_ruler: DESCRIÇÃO DO PROJETO:
 ```
 <p> Front-End completo de um website criado com aprendizado adquirido no curso Web da ORIGAMID.
 Foi usado tecnologias como HTML, CSS, JAVASCRIPT, BOOTSTRAP e ferramentas como Adobe Photoshop e Illustrator 
