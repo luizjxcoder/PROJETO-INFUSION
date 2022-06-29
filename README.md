@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">INFUSION </h1>
  
-<img src="https://github.com/luizjxcoder/PROJETO-INFUSION/blob/master/CardInfusion_Prancheta%201.png"/>
+<img src="https://github.com/luizjxcoder/PROJETO-INFUSION/blob/master/infusion.png"/>
 
 ### :atom: TECNOLOGIAS USADAS NO PROJETO:
 
